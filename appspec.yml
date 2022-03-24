@@ -6,9 +6,5 @@ files:
 hooks:
   BeforeInstall:
     - location: Scripts/stop.sh
-	    timeout: 180
-	    runas: root
   AfterInstall:
     - location: Scripts/start.sh
-      timeout: 180
-	    runas: root
